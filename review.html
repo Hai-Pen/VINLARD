@@ -15,6 +15,10 @@
 		a.hover {text-decoration:underline;
 			color:red;
 }
+		a.comment {
+			font-size:12px;
+			font-family:times new roman;
+}
 		#formkomentar{
 			border: 5px solid #d1d1d1;
 			width: 900px;
@@ -66,19 +70,19 @@
 	<body>
 		<form id="formkomentar">
 		<div>
-			<input type="text" name="Nickname" placeholder="Nickname"/>
+			<a class="comment"input type="text" name="Nickname" placeholder="Nickname"/></a>
 		</div>
 
 		<div>
-			<input type="text" name="Email" placeholder="Email"/>
+			<a class="comment"input type="text" name="Email" placeholder="Email"/></a>
 		</div>
 
 		<div>
-			<textarea name="Comment" row="10" placeholder="Comment"></textarea>
+			<a class="comment"textarea name="Comment" row="10" placeholder="Comment"></textarea></a>
 		</div>
 
 		<div>
-			<input type="submit" value="Add Comment"/>
+			<a class="comment"input type="submit" value="Add Comment"/></a>
 		</div>
 		</form>
 	</body>
